@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container form input, .container form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #0056b3;
+}
+
+.student-list {
+    margin-top: 20px;
+}
+
+.student {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.student:last-child {
+    border-bottom: none;
+}
